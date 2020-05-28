@@ -1,12 +1,12 @@
 // JavaScript File
 
 document.getElementById("submitguess").onclick = function() {
-var number = document.getElementById("number");
-if (number < 0) {
+var input = document.getElementById("input");
+if (input < 0) {
   alert("Your number is negative!");
 }
-else if (number > 0) {
-  alert("Your number is positive");
+else if (input >= 0) {
+  alert("Your number is positive!");
 }
 else {
   alert("Please type in a number first!");
